@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1046A492A9DCAD30044A671 /* MemoirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1046A482A9DCAD30044A671 /* MemoirApp.swift */; };
+		E1046A492A9DCAD30044A671 /* MemoireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1046A482A9DCAD30044A671 /* MemoireApp.swift */; };
 		E1046A4B2A9DCAD30044A671 /* ReminderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1046A4A2A9DCAD30044A671 /* ReminderList.swift */; };
 		E1046A4D2A9DCAD40044A671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1046A4C2A9DCAD40044A671 /* Assets.xcassets */; };
 		E1046A512A9DCAD40044A671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1046A502A9DCAD40044A671 /* Preview Assets.xcassets */; };
@@ -37,15 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E1046A452A9DCAD30044A671 /* Memoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1046A482A9DCAD30044A671 /* MemoirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoirApp.swift; sourceTree = "<group>"; };
+		E1046A452A9DCAD30044A671 /* Memoire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memoire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1046A482A9DCAD30044A671 /* MemoireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoireApp.swift; sourceTree = "<group>"; };
 		E1046A4A2A9DCAD30044A671 /* ReminderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderList.swift; sourceTree = "<group>"; };
 		E1046A4C2A9DCAD40044A671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E1046A4E2A9DCAD40044A671 /* Memoir.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Memoir.entitlements; sourceTree = "<group>"; };
+		E1046A4E2A9DCAD40044A671 /* Memoire.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Memoire.entitlements; sourceTree = "<group>"; };
 		E1046A502A9DCAD40044A671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E1046A562A9DCAD40044A671 /* MemoirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1046A562A9DCAD40044A671 /* MemoireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1046A5A2A9DCAD40044A671 /* MemoirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoirTests.swift; sourceTree = "<group>"; };
-		E1046A602A9DCAD40044A671 /* MemoirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1046A602A9DCAD40044A671 /* MemoireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1046A642A9DCAD40044A671 /* MemoirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoirUITests.swift; sourceTree = "<group>"; };
 		E1046A662A9DCAD40044A671 /* MemoirUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoirUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E192BBC72A9DE4CD009FD04D /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 			children = (
 				E19BF6602A9DCC5D0011411C /* README.md */,
 				E19BF6612A9DCD0D0011411C /* .gitignore.md */,
-				E1046A472A9DCAD30044A671 /* Memoir */,
+				E1046A472A9DCAD30044A671 /* Memoire */,
 				E1046A592A9DCAD40044A671 /* MemoirTests */,
 				E1046A632A9DCAD40044A671 /* MemoirUITests */,
 				E1046A462A9DCAD30044A671 /* Products */,
@@ -95,26 +95,26 @@
 		E1046A462A9DCAD30044A671 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1046A452A9DCAD30044A671 /* Memoir.app */,
-				E1046A562A9DCAD40044A671 /* MemoirTests.xctest */,
-				E1046A602A9DCAD40044A671 /* MemoirUITests.xctest */,
+				E1046A452A9DCAD30044A671 /* Memoire.app */,
+				E1046A562A9DCAD40044A671 /* MemoireTests.xctest */,
+				E1046A602A9DCAD40044A671 /* MemoireUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E1046A472A9DCAD30044A671 /* Memoir */ = {
+		E1046A472A9DCAD30044A671 /* Memoire */ = {
 			isa = PBXGroup;
 			children = (
-				E1046A482A9DCAD30044A671 /* MemoirApp.swift */,
+				E1046A482A9DCAD30044A671 /* MemoireApp.swift */,
 				E1046A4A2A9DCAD30044A671 /* ReminderList.swift */,
 				E1046A4C2A9DCAD40044A671 /* Assets.xcassets */,
-				E1046A4E2A9DCAD40044A671 /* Memoir.entitlements */,
+				E1046A4E2A9DCAD40044A671 /* Memoire.entitlements */,
 				E1046A4F2A9DCAD40044A671 /* Preview Content */,
 				E192BBC72A9DE4CD009FD04D /* Buttons.swift */,
 				E192BBC92A9DF53C009FD04D /* ReminderDetail.swift */,
 				E192BBCB2A9DF635009FD04D /* Reminder.swift */,
 			);
-			path = Memoir;
+			path = Memoire;
 			sourceTree = "<group>";
 		};
 		E1046A4F2A9DCAD40044A671 /* Preview Content */ = {
@@ -130,7 +130,8 @@
 			children = (
 				E1046A5A2A9DCAD40044A671 /* MemoirTests.swift */,
 			);
-			path = MemoirTests;
+			name = MemoirTests;
+			path = MemoireTests;
 			sourceTree = "<group>";
 		};
 		E1046A632A9DCAD40044A671 /* MemoirUITests */ = {
@@ -139,15 +140,16 @@
 				E1046A642A9DCAD40044A671 /* MemoirUITests.swift */,
 				E1046A662A9DCAD40044A671 /* MemoirUITestsLaunchTests.swift */,
 			);
-			path = MemoirUITests;
+			name = MemoirUITests;
+			path = MemoireUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E1046A442A9DCAD30044A671 /* Memoir */ = {
+		E1046A442A9DCAD30044A671 /* Memoire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1046A6A2A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "Memoir" */;
+			buildConfigurationList = E1046A6A2A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "Memoire" */;
 			buildPhases = (
 				E1046A412A9DCAD30044A671 /* Sources */,
 				E1046A422A9DCAD30044A671 /* Frameworks */,
@@ -157,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = Memoir;
+			name = Memoire;
 			productName = Memoir;
-			productReference = E1046A452A9DCAD30044A671 /* Memoir.app */;
+			productReference = E1046A452A9DCAD30044A671 /* Memoire.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E1046A552A9DCAD40044A671 /* MemoirTests */ = {
+		E1046A552A9DCAD40044A671 /* MemoireTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1046A6D2A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "MemoirTests" */;
+			buildConfigurationList = E1046A6D2A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "MemoireTests" */;
 			buildPhases = (
 				E1046A522A9DCAD40044A671 /* Sources */,
 				E1046A532A9DCAD40044A671 /* Frameworks */,
@@ -175,14 +177,14 @@
 			dependencies = (
 				E1046A582A9DCAD40044A671 /* PBXTargetDependency */,
 			);
-			name = MemoirTests;
+			name = MemoireTests;
 			productName = MemoirTests;
-			productReference = E1046A562A9DCAD40044A671 /* MemoirTests.xctest */;
+			productReference = E1046A562A9DCAD40044A671 /* MemoireTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E1046A5F2A9DCAD40044A671 /* MemoirUITests */ = {
+		E1046A5F2A9DCAD40044A671 /* MemoireUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1046A702A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "MemoirUITests" */;
+			buildConfigurationList = E1046A702A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "MemoireUITests" */;
 			buildPhases = (
 				E1046A5C2A9DCAD40044A671 /* Sources */,
 				E1046A5D2A9DCAD40044A671 /* Frameworks */,
@@ -193,9 +195,9 @@
 			dependencies = (
 				E1046A622A9DCAD40044A671 /* PBXTargetDependency */,
 			);
-			name = MemoirUITests;
+			name = MemoireUITests;
 			productName = MemoirUITests;
-			productReference = E1046A602A9DCAD40044A671 /* MemoirUITests.xctest */;
+			productReference = E1046A602A9DCAD40044A671 /* MemoireUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E1046A402A9DCAD30044A671 /* Build configuration list for PBXProject "Memoir" */;
+			buildConfigurationList = E1046A402A9DCAD30044A671 /* Build configuration list for PBXProject "Memoire" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1046A442A9DCAD30044A671 /* Memoir */,
-				E1046A552A9DCAD40044A671 /* MemoirTests */,
-				E1046A5F2A9DCAD40044A671 /* MemoirUITests */,
+				E1046A442A9DCAD30044A671 /* Memoire */,
+				E1046A552A9DCAD40044A671 /* MemoireTests */,
+				E1046A5F2A9DCAD40044A671 /* MemoireUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +277,7 @@
 				E192BBCA2A9DF53C009FD04D /* ReminderDetail.swift in Sources */,
 				E192BBC82A9DE4CD009FD04D /* Buttons.swift in Sources */,
 				E1046A4B2A9DCAD30044A671 /* ReminderList.swift in Sources */,
-				E1046A492A9DCAD30044A671 /* MemoirApp.swift in Sources */,
+				E1046A492A9DCAD30044A671 /* MemoireApp.swift in Sources */,
 				E192BBCC2A9DF635009FD04D /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		E1046A582A9DCAD40044A671 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E1046A442A9DCAD30044A671 /* Memoir */;
+			target = E1046A442A9DCAD30044A671 /* Memoire */;
 			targetProxy = E1046A572A9DCAD40044A671 /* PBXContainerItemProxy */;
 		};
 		E1046A622A9DCAD40044A671 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E1046A442A9DCAD30044A671 /* Memoir */;
+			target = E1046A442A9DCAD30044A671 /* Memoire */;
 			targetProxy = E1046A612A9DCAD40044A671 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -516,7 +518,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memoir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memoir";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memoire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memoire";
 			};
 			name = Debug;
 		};
@@ -538,7 +540,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memoir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memoir";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memoire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memoire";
 			};
 			name = Release;
 		};
@@ -587,7 +589,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1046A402A9DCAD30044A671 /* Build configuration list for PBXProject "Memoir" */ = {
+		E1046A402A9DCAD30044A671 /* Build configuration list for PBXProject "Memoire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1046A682A9DCAD40044A671 /* Debug */,
@@ -596,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1046A6A2A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "Memoir" */ = {
+		E1046A6A2A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "Memoire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1046A6B2A9DCAD40044A671 /* Debug */,
@@ -605,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1046A6D2A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "MemoirTests" */ = {
+		E1046A6D2A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "MemoireTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1046A6E2A9DCAD40044A671 /* Debug */,
@@ -614,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1046A702A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "MemoirUITests" */ = {
+		E1046A702A9DCAD40044A671 /* Build configuration list for PBXNativeTarget "MemoireUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1046A712A9DCAD40044A671 /* Debug */,
