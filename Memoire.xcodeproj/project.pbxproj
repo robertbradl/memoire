@@ -52,7 +52,6 @@
 		E192BBC92A9DF53C009FD04D /* ReminderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetail.swift; sourceTree = "<group>"; };
 		E192BBCB2A9DF635009FD04D /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		E19BF6602A9DCC5D0011411C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E19BF6612A9DCD0D0011411C /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				E19BF6602A9DCC5D0011411C /* README.md */,
-				E19BF6612A9DCD0D0011411C /* .gitignore.md */,
 				E1046A472A9DCAD30044A671 /* Memoire */,
 				E1046A592A9DCAD40044A671 /* MemoireTests */,
 				E1046A632A9DCAD40044A671 /* MemoireUITests */,
