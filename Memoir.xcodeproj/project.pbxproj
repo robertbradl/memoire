@@ -45,6 +45,8 @@
 		E1046A602A9DCAD40044A671 /* MemoirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1046A642A9DCAD40044A671 /* MemoirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoirUITests.swift; sourceTree = "<group>"; };
 		E1046A662A9DCAD40044A671 /* MemoirUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoirUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E19BF6602A9DCC5D0011411C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E19BF6612A9DCD0D0011411C /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,8 @@
 		E1046A3C2A9DCAD30044A671 = {
 			isa = PBXGroup;
 			children = (
+				E19BF6602A9DCC5D0011411C /* README.md */,
+				E19BF6612A9DCD0D0011411C /* .gitignore.md */,
 				E1046A472A9DCAD30044A671 /* Memoir */,
 				E1046A592A9DCAD40044A671 /* MemoirTests */,
 				E1046A632A9DCAD40044A671 /* MemoirUITests */,
@@ -417,6 +421,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Memoir/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,6 +458,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Memoir/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
