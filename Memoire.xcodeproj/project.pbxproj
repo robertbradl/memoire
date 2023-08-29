@@ -11,9 +11,9 @@
 		E1046A4B2A9DCAD30044A671 /* ReminderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1046A4A2A9DCAD30044A671 /* ReminderList.swift */; };
 		E1046A4D2A9DCAD40044A671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1046A4C2A9DCAD40044A671 /* Assets.xcassets */; };
 		E1046A512A9DCAD40044A671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1046A502A9DCAD40044A671 /* Preview Assets.xcassets */; };
-		E1046A5B2A9DCAD40044A671 /* MemoirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1046A5A2A9DCAD40044A671 /* MemoirTests.swift */; };
-		E1046A652A9DCAD40044A671 /* MemoirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1046A642A9DCAD40044A671 /* MemoirUITests.swift */; };
-		E1046A672A9DCAD40044A671 /* MemoirUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1046A662A9DCAD40044A671 /* MemoirUITestsLaunchTests.swift */; };
+		E1046A5B2A9DCAD40044A671 /* MemoireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1046A5A2A9DCAD40044A671 /* MemoireTests.swift */; };
+		E1046A652A9DCAD40044A671 /* MemoireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1046A642A9DCAD40044A671 /* MemoireUITests.swift */; };
+		E1046A672A9DCAD40044A671 /* MemoireUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1046A662A9DCAD40044A671 /* MemoireUITestsLaunchTests.swift */; };
 		E192BBC82A9DE4CD009FD04D /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192BBC72A9DE4CD009FD04D /* Buttons.swift */; };
 		E192BBCA2A9DF53C009FD04D /* ReminderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192BBC92A9DF53C009FD04D /* ReminderDetail.swift */; };
 		E192BBCC2A9DF635009FD04D /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192BBCB2A9DF635009FD04D /* Reminder.swift */; };
@@ -44,10 +44,10 @@
 		E1046A4E2A9DCAD40044A671 /* Memoire.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Memoire.entitlements; sourceTree = "<group>"; };
 		E1046A502A9DCAD40044A671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1046A562A9DCAD40044A671 /* MemoireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1046A5A2A9DCAD40044A671 /* MemoirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoirTests.swift; sourceTree = "<group>"; };
+		E1046A5A2A9DCAD40044A671 /* MemoireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoireTests.swift; sourceTree = "<group>"; };
 		E1046A602A9DCAD40044A671 /* MemoireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1046A642A9DCAD40044A671 /* MemoirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoirUITests.swift; sourceTree = "<group>"; };
-		E1046A662A9DCAD40044A671 /* MemoirUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoirUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1046A642A9DCAD40044A671 /* MemoireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoireUITests.swift; sourceTree = "<group>"; };
+		E1046A662A9DCAD40044A671 /* MemoireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoireUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E192BBC72A9DE4CD009FD04D /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		E192BBC92A9DF53C009FD04D /* ReminderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetail.swift; sourceTree = "<group>"; };
 		E192BBCB2A9DF635009FD04D /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
@@ -86,8 +86,8 @@
 				E19BF6602A9DCC5D0011411C /* README.md */,
 				E19BF6612A9DCD0D0011411C /* .gitignore.md */,
 				E1046A472A9DCAD30044A671 /* Memoire */,
-				E1046A592A9DCAD40044A671 /* MemoirTests */,
-				E1046A632A9DCAD40044A671 /* MemoirUITests */,
+				E1046A592A9DCAD40044A671 /* MemoireTests */,
+				E1046A632A9DCAD40044A671 /* MemoireUITests */,
 				E1046A462A9DCAD30044A671 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,22 +125,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E1046A592A9DCAD40044A671 /* MemoirTests */ = {
+		E1046A592A9DCAD40044A671 /* MemoireTests */ = {
 			isa = PBXGroup;
 			children = (
-				E1046A5A2A9DCAD40044A671 /* MemoirTests.swift */,
+				E1046A5A2A9DCAD40044A671 /* MemoireTests.swift */,
 			);
-			name = MemoirTests;
 			path = MemoireTests;
 			sourceTree = "<group>";
 		};
-		E1046A632A9DCAD40044A671 /* MemoirUITests */ = {
+		E1046A632A9DCAD40044A671 /* MemoireUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E1046A642A9DCAD40044A671 /* MemoirUITests.swift */,
-				E1046A662A9DCAD40044A671 /* MemoirUITestsLaunchTests.swift */,
+				E1046A642A9DCAD40044A671 /* MemoireUITests.swift */,
+				E1046A662A9DCAD40044A671 /* MemoireUITestsLaunchTests.swift */,
 			);
-			name = MemoirUITests;
 			path = MemoireUITests;
 			sourceTree = "<group>";
 		};
@@ -286,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1046A5B2A9DCAD40044A671 /* MemoirTests.swift in Sources */,
+				E1046A5B2A9DCAD40044A671 /* MemoireTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1046A652A9DCAD40044A671 /* MemoirUITests.swift in Sources */,
-				E1046A672A9DCAD40044A671 /* MemoirUITestsLaunchTests.swift in Sources */,
+				E1046A652A9DCAD40044A671 /* MemoireUITests.swift in Sources */,
+				E1046A672A9DCAD40044A671 /* MemoireUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
